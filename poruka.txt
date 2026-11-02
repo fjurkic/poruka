@@ -1,0 +1,220 @@
+
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Prva stranica</title>
+
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+
+ 
+    <header class="container">
+
+        <div class="row align-items-center">
+
+            
+            <div class="col-12 col-lg-2 text-start text-lg-end">
+
+                <img src="img/slika1.jpg"
+                     class="rounded-circle img-fluid"
+                     style="width: 50px; height: 50px; object-fit: cover;"
+                     alt="Logo">
+
+            </div>
+
+            
+            <div class="col-12 col-lg-10">
+
+                <h1 class="fs-5 mb-0">
+                    Naslov na stranici -
+                    <small>Manji podnaslov</small>
+                </h1>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+ 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+        <div class="container-fluid">
+
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#izbornik"
+                    aria-controls="izbornik"
+                    aria-expanded="false"
+                    aria-label="Otvori izbornik">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="izbornik">
+
+                <ul class="navbar-nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Prva</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Druga</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Treća</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Četvrta</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    
+    <main class="container-fluid px-1">
+
+       
+        <h2 class="fs-5 fw-bold mb-1">Priroda</h2>
+
+
+        
+        <p>
+            Priroda nas svakodnevno oduševljava svojom ljepotom i
+            raznolikošću. Šetnja šumom pruža mir i povezanost s okolišem.
+            Zvuk ptica, šum lišća i svjež zrak stvaraju poseban ugođaj
+            koji opušta um i tijelo. Planine, rijeke i jezera podsjećaju
+            nas na veličanstvenost prirode i njezinu važnost u našem životu.
+            Čuvanje okoliša postaje sve značajnije u svijetu koji se suočava
+            s ekološkim izazovima.
+        </p>
+
+        <p>
+            Uz očuvanje prirode, važno je i promicanje održivog načina
+            života. To podrazumijeva smanjenje potrošnje plastike,
+            upotrebu obnovljivih izvora energije te odgovorno korištenje
+            prirodnih resursa. Održivost ne znači samo zaštitu okoliša,
+            već i izgradnju zajednica koje poštuju prirodne procese
+            i harmoniju života na Zemlji.
+        </p>
+
+        <p>
+            Na kraju, priroda nas podsjeća na to koliko smo međusobno
+            povezani – s biljkama, životinjama i planetom.
+            Naš odnos prema prirodi oblikuje budućnost, pa je važno
+            djelovati sada kako bismo osigurali bolji svijet za
+            sve vrste koje ga dijele.
+        </p>
+
+
+    
+       <div class="row justify-content-center text-center my-3">
+
+    
+    <div class="col-12 col-lg-4 mb-3">
+
+        <img src="img/slika1.jpg"
+             class="img-fluid rounded-circle"
+             style="width: 200px; height: 150px; object-fit: cover;"
+             alt="Kružna slika prirode">
+
+    </div>
+
+   
+    <div class="col-12 col-lg-4 mb-3">
+
+        <img src="img/slika1.jpg"
+             class="img-fluid rounded"
+             style="width: 200px; height: 150px; object-fit: cover;"
+             alt="Zaobljena slika prirode">
+
+    </div>
+
+   
+    <div class="col-12 col-lg-4 mb-3">
+
+        <img src="img/slika1.jpg"
+             class="img-fluid"
+             style="width: 200px; height: 150px; object-fit: cover;"
+             alt="Pravokutna slika prirode">
+
+    </div>
+
+</div>
+
+
+        
+        <div class="row justify-content-center">
+
+            <div class="col-12 col-lg-8">
+
+                <table class="table table-sm">
+
+                    <thead>
+
+                        <tr>
+                            <th>Ime</th>
+                            <th>Prezime</th>
+                            <th>Email</th>
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td>Hrvoje</td>
+                            <td>Horvat</td>
+                            <td>horvat@example.com</td>
+                        </tr>
+
+                        <tr>
+                            <td>Marija</td>
+                            <td>Marjanović</td>
+                            <td>marija@example.com</td>
+                        </tr>
+
+                        <tr>
+                            <td>Ivica</td>
+                            <td>Ivić</td>
+                            <td>ivica@example.com</td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+</body>
+
+</html>
